@@ -1,5 +1,21 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.horizontal-align{
+  border: 2px solid red;
+  margin-left: 20%;
+  margin-right:20%;
+}
+.todo-container{
+  text-align: center;
+  border:1px solid red;
+  margin: 10px;
+  border-radius: 10px;
+}
+.App-align{
+  text-align: center;
 }
 
 .App-logo {
